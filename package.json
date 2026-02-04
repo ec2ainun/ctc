@@ -14,7 +14,8 @@
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
     "db:pull": "drizzle-kit pull",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "dev:sage": "cd sage && uv run uvicorn main:app --reload --port 8000"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.9",
